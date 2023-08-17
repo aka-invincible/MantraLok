@@ -1,0 +1,2 @@
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Ubuntu', sans-serif;

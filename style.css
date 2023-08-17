@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 213, 157, 0.794)
+    /* #ecae51; */
+}
+
+nav {
+    font-family: 'Averia Serif Libre', cursive, 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    height: 45px;
+    background-color: #ecae51;
+    /* cadetblue; */
+    /* color: rgba(255, 213, 157, 0.794); */
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.container {
+    min-height: 75vh;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+#brand img {
+    height: 33px;
+    width: 33px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.bottom {
+    position: sticky;
+    background-color: #ecae51;
+    height: 150px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+
+#myProgressBar {
+    width: 50vw;
+    accent-color: #ff3700;
+    display: flex;
+}
