@@ -1,2 +1,5 @@
 font-family: 'Averia Serif Libre', cursive;
 font-family: 'Ubuntu', sans-serif;
+
+background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(65,255,193,1) 16%, rgba(255,0,0,1) 64%, rgba(0,0,0,1) 100%);

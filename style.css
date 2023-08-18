@@ -6,12 +6,14 @@
 }
 
 body {
-    background-color: rgba(255, 213, 157, 0.794)
-    /* #ecae51; */
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 12%, rgba(217, 103, 10, 0.9166904310552346) 51%, rgba(255, 247, 0, 1) 100%) no-repeat;
 }
 
 nav {
-    font-family: 'Averia Serif Libre', cursive, 'Ubuntu', sans-serif;
+    font-family: 'Averia Serif Libre', cursive;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -19,9 +21,8 @@ nav ul {
     display: flex;
     list-style-type: none;
     height: 45px;
-    background-color: #ecae51;
-    /* cadetblue; */
-    /* color: rgba(255, 213, 157, 0.794); */
+    background: rgb(233, 203, 0);
+    background: linear-gradient(90deg, rgba(233, 203, 0, 1) 0%, rgba(206, 115, 108, 1) 93%);
 }
 
 nav ul li {
@@ -29,7 +30,16 @@ nav ul li {
 }
 
 .container {
-    min-height: 75vh;
+    min-height: 30vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(217, 79, 10, 0.9166904310552346) 0%, rgba(255, 247, 0, 1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: url('aum.jpg') linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%) no-repeat;
 }
 
 #brand {
@@ -48,7 +58,8 @@ nav ul li {
 
 .bottom {
     position: sticky;
-    background-color: #ecae51;
+    background: rgb(233, 203, 0);
+    background: linear-gradient(90deg, rgba(233, 203, 0, 1) 0%, rgba(206, 115, 108, 1) 93%);
     height: 150px;
     bottom: 0;
     display: flex;
@@ -64,8 +75,49 @@ nav ul li {
     gap: 20px;
 }
 
+.icons i {
+    cursor: pointer;
+}
+
 #myProgressBar {
     width: 50vw;
     accent-color: #ff3700;
     display: flex;
+    cursor: pointer;
 }
+
+.songItemContainer {
+    margin-top: 40px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    /* width: 115%; */
+    margin: 10px;
+    background: rgb(233, 203, 0);
+    background: linear-gradient(90deg, rgba(233, 203, 0, 1) 0%, rgba(206, 115, 108, 1) 93%);
+}
+
+.songItem img {
+    border-radius: 50%;
+    width: 34px;
+    margin: 10px;
+}
+
+.timestamp {
+    margin: 15px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+
+/* .playing img {
+    position: relative;
+    left: 74px;
+} */
